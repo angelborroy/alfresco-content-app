@@ -32,22 +32,8 @@ adf-document-list {
         }
     }
 
-    .adf-data-table-cell, .adf-datatable-header {
-        width: 100%;
-        text-align: left;
-    }
-
-    .adf-data-table__header--sorted-asc,
-    .adf-data-table__header--sorted-desc {
-        &:hover {
-            &:before {
-                color: inherit !important;
-            }
-        }
-    }
-
-    .app-location-link,
-    .adf-location-cell {
+    /* same as of the .adf-location-cell in ADF */
+    .app-location-link {
         a {
             text-decoration: none;
             color: $alfresco-primary-text-color;
@@ -57,17 +43,6 @@ adf-document-list {
                 text-decoration: underline;
             }
         }
-    }
-
-    .adf-no-content-container {
-        border: none !important;
-    }
-
-    .adf-datatable-header:first-of-type, .adf-datatable-header.adf-data-table-cell--image,
-    .adf-data-table-cell:first-of-type, .adf-data-table-cell.adf-data-table-cell--image {
-        padding-left: 24px;
-        padding-right: 0;
-        width: 10px;
     }
 
     .adf-data-table-cell--ellipsis .cell-value,
